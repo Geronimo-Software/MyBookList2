@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  MyBookList
+
+  Created by Kio on 01/02/2019.
+  Copyright © 2019 geronimo.software. All rights reserved.
+*/
+
+"x" = "X";  // "x".localized()
+
+/* MasterTableViewController */
+"SearchBarPlaceHolder" = "Search Authors"; ///example. searchController.searchBar.placeholder = "SearchBarPlaceHolder".localized()
+"RefreshControlTitle" = "Refreshing My Book Data ...";
+
+
+/* MasterTableViewController   &&  DetailDisplayViewController */
+"AlertErrorURLSession" = "Sorry seems to be a issue with retrieving data";
+
+
+/* DisplayView */
+"ActivityLabelText" = "Please wait while retrieving data ...";
+"ButtonOK" = "OK";
+
+"ButtonEdit" = "EDIT";
+"ButtonCancel" = "CANCEL";
+"AlertErrorFeatureNotInOperation" = "Sorry this feature isnt yet in operation";
+
+"AlertErrorUPDATESession" = "Sorry seems to be a issue with updateing data";"

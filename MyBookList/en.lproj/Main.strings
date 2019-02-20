@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "    description"; ObjectID = "8rZ-Bh-Ke0"; */
+"8rZ-Bh-Ke0.text" = "    Description"; //always keep "    " in front of text for layout eg "    Description"
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "CFL-xc-jMZ"; */
+"CFL-xc-jMZ.text" = "Title";
+
+/* Class = "UINavigationItem"; title = "my book list"; ObjectID = "FT1-gW-Tr8"; */
+"FT1-gW-Tr8.title" = "My Book List";
+
+/* Class = "UILabel"; text = "    price"; ObjectID = "Nux-bl-ZQe"; */
+"Nux-bl-ZQe.text" = "    Price"; //always keep "    " in front of text for layout eg "    price"
+
+/* Class = "UINavigationItem"; title = "my book list"; ObjectID = "apw-t9-f1W"; */
+"apw-t9-f1W.title" = "My Book List";
+
+/* Class = "UILabel"; text = "    tiTLe"; ObjectID = "h4g-Ja-EA4"; */
+"h4g-Ja-EA4.text" = "    Title"; //always keep "    " in front of text for layout eg "    Title"
+
+/* Class = "UIButton"; normalTitle = "eDIt"; ObjectID = "k6J-Qe-b5E"; */
+"k6J-Qe-b5E.normalTitle" = "EDIT";
+
+/* Class = "UIButton"; normalTitle = "done"; ObjectID = "KLg-Vv-bbr"; */
+"KLg-Vv-bbr.normalTitle" = "UPDATE";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "ogD-tQ-U8w"; */
+"ogD-tQ-U8w.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "    author"; ObjectID = "tbp-Ap-ump"; */
+"tbp-Ap-ump.text" = "    Author"; //always keep "    " in front of text for layout eg "    Author"
+
+/* Class = "UILabel"; text = "    isbn"; ObjectID = "uMU-iP-4VV"; */
+"uMU-iP-4VV.text" = "    ISBN"; //always keep "    " in front of text for layout eg "    ISBN"

@@ -8,7 +8,7 @@
 
 import Foundation
 
-let notificationClear = Notification.Name(rawValue: NotificationConstants.clearDisplayScreen)
+ let notificationClear = Notification.Name(rawValue: NotificationConstants.clearDisplayScreen)
 
 
 struct URLConstants {

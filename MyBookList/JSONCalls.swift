@@ -121,21 +121,22 @@ class JSONCalls  {
         self.bookDetailJSONDelegate.fetchedBookDetialJSON(bookDetails: knownBookWithDesc)
     }
     
-    func updateBookDetailJSON(updateBook:Book) {
+    //func updateBookDetailJSON(updateBook:Book) {
+    func updateBookDetailJSON() {
         //not implemented on server but this is how it'd look given more details
         
-/*        let id:String = String(updateBook.id!)
+        let id:String = "101"//String(updateBook.id!)
         let url = URL(string: URLConstants.urlUpdateSingleBook + id)
         var request = URLRequest(url: url!)
         request.httpMethod = "POST"
         request.addValue("application/json; charset=utf-8", forHTTPHeaderField: "Content-Type")
         
         var params :[String: Any]?
-        params = ["id" : updateBook.id, "title" : updateBook.title, "isbn" : updateBook.isbn, "description" : updateBook.description, "price" : updateBook.price, "currencyCode" : updateBook.currencyCode, "author" : updateBook.author]
-        request.httpBody = try JSONSerialization.data(withJSONObject: params, options: JSONSerialization.WritingOptions())
-        request.httpBody = """
-        {...}
-        """.data(using: .utf8)
+        params = ["id" : "updateBook.id", "title" : "updateBook.title", "isbn" : "updateBook.isbn", "description" : "updateBook.description", "price" : "updateBook.price", "currencyCode" : "updateBook.currencyCode", "author" : "updateBook.author"]
+        request.httpBody = try? JSONSerialization.data(withJSONObject: params!, options: [])
+        //request.httpBody = """
+       // {...}
+       // """.data(using: .utf8)
         
         let task = URLSession.shared.dataTask(with: request) { data, response, error in
             
@@ -168,8 +169,8 @@ class JSONCalls  {
         
         
         //get book with id from server, this replaces the existing bok we have in record with the new book.
-        callBookdetailJSON(bookID: updateBook.id!)
+     //   callBookdetailJSON(bookID: updateBook.id!)
         
-        task.resume()*/
+        task.resume()
     }
 }

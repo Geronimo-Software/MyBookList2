@@ -126,6 +126,8 @@ class DetailDisplayViewController: UIViewController {
         //attach to json func to send post request
         //have delegate respond succes or not
         DisplayView.sharedInstance.callAlert("AlertErrorFeatureNotInOperation".localized())
+        
+        JSONCalls.sharedInstance.updateBookDetailJSON()
     }
     @IBAction func editBookDetails(_ sender: Any) {
         //not fully set out. would need to call the post API which isnt implement yet so cant fully execute this feature anyway :(
